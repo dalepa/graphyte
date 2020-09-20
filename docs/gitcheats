@@ -1,0 +1,21 @@
+git config --global user.name "dalepa"
+git config --global user.email "dan.pancamo@gmail.com"
+init
+
+
+# add repo
+ 	git remote add origin https://github.com/dalepa/graphyte.git
+
+	git add .
+	git commit -m "First commit"
+	git push
+
+
+#changes
+	git add .
+	git commit -m "Hello Tideman"
+	git push
+	
+
+#pull
+	git clone https://github.com/dalepa/tideman.git
